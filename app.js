@@ -35,11 +35,11 @@ function ShoppingListCheckOffService() {
   // List of shopping items
   var items = [];
   var items2 = [];
-  items = [{"name":"1 Item","quantity":"2"},
-               {"name":"2 Item","quantity":"3"},
-               {"name":"3 Item","quantity":"2"},
-               {"name":"4 Item","quantity":"5"},
-               {"name":"5 Item","quantity":"2"}];
+  items = [{"name":"Fanta   ","quantity":"2"},
+           {"name":"Cup Cake","quantity":"3"},
+           {"name":"Bread   ","quantity":"2"},
+           {"name":"Pan Cake","quantity":"5"},
+           {"name":"Apple   ","quantity":"12"}];
 
 
   service.addItem = function (itemName, quantity) {
